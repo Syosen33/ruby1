@@ -2,6 +2,7 @@ require 'sinatra'
 require 'json'
 require 'net/http'
 require 'uri'
+require 'line/bot'
 
 set :bind, '0.0.0.0'
 set :port, 4567
